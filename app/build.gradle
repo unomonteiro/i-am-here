@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
-def GOOGLE_MAPS_API_DEBUG = '"' + googleMapsApiDebug + '"' ?: '"Define Google Maps API key"';
+def GOOGLE_MAPS_API_DEBUG = '"' + IAmHereGoogleMapsApiDebug + '"' ?: '"Define Google Maps API key"';
 //googleMapsApiRelease
-def GOOGLE_MAPS_API_RELEASE = '"' + googleMapsApiRelease + '"' ?: '"Define Google Maps API key"';
+def GOOGLE_MAPS_API_RELEASE = '"' + IAmHereGoogleMapsApiRelease + '"' ?: '"Define Google Maps API key"';
 
 /*android.buildTypes.each { type ->
     //type.buildConfigField 'String', 'GOOGLE_MAPS_API_KEY', GOOGLE_MAPS_API_KEY
